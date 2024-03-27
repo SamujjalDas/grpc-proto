@@ -3,9 +3,8 @@ name: Push - Create & Tag Protobuf - Go
 on:
   push:
     branches:
-      - "master"
-      - "main"
-
+      - "*"
+      
 jobs:
   generate-protobuf-go:
     runs-on: ubuntu-latest
