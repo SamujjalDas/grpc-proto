@@ -9,7 +9,3 @@ option go_package = "github.com/SamujjalDas/grpc-proto/protogen/go/bank";
 service BankService {
     rpc GetCurrentBalance(CurrentBalanceRequest) returns (CurrentBalanceResponse) {}
 }
-
-
-
-
